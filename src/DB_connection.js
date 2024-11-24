@@ -4,7 +4,8 @@ const { DB_USER, DB_NAME, DB_PASSWORD, DB_HOST, DB_PORT } = process.env;
 const ReviewModel = require("./models/Review");
 
 const sequelize = new Sequelize(
-  `mysql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`,
+  `mysql://root:bwxPTjpfIWzzzpJrKYankmVtkmmypGAS@junction.proxy.rlwy.net:47466/railway`,
+  
   {
     dialect: "mysql",
     logging: false,
