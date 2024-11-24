@@ -9,7 +9,7 @@ const sequelize = new Sequelize(
   {
     dialect: "mysql",
     logging: false,
-    alter: true,
+    // alter: true,
     dialectOptions: {
       timezone: "Z",
     },
